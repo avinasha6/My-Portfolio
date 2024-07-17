@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Avinash - Frontend Developer</title>
+  <meta name="title" content="Avinash - I'm Frontend Developer.">
+  <meta name="description" content="This is my personal portfolio website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <!-- <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Julia home"> -->
+        <h2 class="suraj-h1">Avinash Raj</h2>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <h2 class="suraj-h1">Avinash</h2>
+            <!-- <img src="./assets/images/logo-light.svg" width="64" height="24" alt="Julia home"> -->
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about-scroll" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <!-- <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li> -->
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:developer.avinash@gmail.com" class="contact-link">avinash9999pandey@gmail.com</a>
+
+          <a href="tel:9027168920" class="contact-link">+91 7557779393</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://github.com/avinasha6" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/avinash-kumar-raj-281580286/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/_avinash..pandey?igsh=MTAxZTQ3ZWp5NXB6aw==" target="_blank" 
+              class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://wa.me/7557779393" target="_blank" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+
+            <video src="./assets/images/home-amination.mp4" muted autoplay loop width="560" height="540" alt="Julia"
+              class="w-100" data-reveal="top">
+              <!-- 
+            <img src="./assets/images/me.jpg" width="560" height="540" alt="Julia" class="w-100"
+              data-reveal="top"> -->
+
+              <!-- <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="250+ Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s"> -->
+
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 id="hero-heading1" class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm User Interface Designer & Developer
+            </h1>
+
+            <p id="hero-black-paragraph" class="section-text" data-reveal="top" data-reveal-delay="0.3s">
+              Frontend Web Developer with 1+ years experience that keep customers
+              coming back for about services makes best effort.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="0.2s">
+              <a href="#projects" class="btn btn-primary">See My Works</a>
+
+              <a onclick="window.open(href='../assets/Resume.pdf')" target="_blank" class="btn btn-secondary">Download
+                CV</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about-scroll" class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">About Me</h2>
+
+              <p class="section-text">
+                Hey I'm a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device</p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Web Frontend</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Responsive Design</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Tailwind CSS</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #909193"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Development</p>
+
+                  <span class="span">85 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>SEO</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section id="projects" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="Project.html" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <!-- ******************project 01 ******************** -->
+             
+            <li>
+              <div class="project-card project-card-1" style="background-color:  #dea65d12">
+
+                <!-- #f8f5fb -->
+
+                <div class="card-content" data-reveal="left">
+
+
+
+                  <!-- <p class="card-tag" style="color: #a07cc5">Web Design</p> -->
+                  <p id="tags-tech" class=" card-tag" style="color: #8d714d;">
+                    <span style="border: 1px solid #8d714d;" class="tags-style">HTML</span>
+                    <span style="border: 1px solid #8d714d;" class="tags-style">CSS</span>
+                    <span style="border: 1px solid #8d714d;" class="tags-style">JAVASCRIPT</span>
+                    <span style="border: 1px solid #8d714d;" class="tags-style">RESPONSIVE</span>
+
+                  </p>
+
+                  <h3 class="h3 card-title">Amazon Clone</h3>
+
+                  <p class="card-text">
+                    Complete fully responsive website of Amazon Clone,
+                    In this website I have used to add more product images
+                    to make the website more interactive.
+                  </p>
+
+                  <a href="https://amazon-clone-seven-nu.vercel.app/" target="_blank" class="btn-text" style="color: #8d714d">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+
+                  <a href="https://amazon-clone-seven-nu.vercel.app/" target="_blank">
+                    <img src="./assets/images/project-1.webp" width="650" height="370" loading="lazy"
+                      alt="Web Design" class="w-100">
+                  </a>
+                </figure>
+
+              </div>
+            </li>
+             
+            <!-- ******************project 02 ******************** -->
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+            
+
+                  <!-- <p class=" card-tag" style="color: #3f78e0">Mobile Design</p> -->
+                  <p id="tags-tech" class=" card-tag" style="color: #3f78e0;">
+                    <span style="border: 1px solid #3f78e0;" class="tags-style">HTML</span>
+                    <span style="border: 1px solid #3f78e0;" class="tags-style">CSS</span>
+                    <span style="border: 1px solid #3f78e0;" class="tags-style">JAVASCRIPT</span>
+                    <span style="border: 1px solid #3f78e0;" class="tags-style">RESPONSIVE</span>
+
+                  </p>
+
+                  <h3 class="h3 card-title">Barbers - Hair Cut</h3>
+
+                  <p class="card-text">
+                    I have creared fully responsive Barber's hair cut saloon app,
+                    the customer who can book the online seat to cut their hair &
+                    beards also.
+                  </p>
+
+                  <a href="https://barber-hair-cut.vercel.app/" target="_blank" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <a href="https://barber-hair-cut.vercel.app/" target="_blank">
+                  <img src="./assets/images/2.png" width="600" height="367" loading="lazy"
+                    alt="Web Design" class="w-100">
+                  </a>
+                </figure>
+
+              </div>
+            </li>
+
+            <!-- ******************project 03 ******************** -->
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <!-- <p class=" card-tag" style="color: #7cb798">Web Design</p> -->
+                  <p id="tags-tech" class=" card-tag" style="color: #7cb798;">
+                    <span style="border: 1px solid #7cb798;" class="tags-style">HTML</span>
+                    <span style="border: 1px solid #7cb798;" class="tags-style">CSS</span>
+                    <span style="border: 1px solid #7cb798;" class="tags-style">JAVASCRIPT</span>
+                    <span style="border: 1px solid #7cb798;" class="tags-style">RESPONSIVE</span>
+                  </p>
+
+
+                  <h3 class="h3 card-title"> Car Hero Section </h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper.
+                  </p>
+
+                  <a href="#project-04" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/grill-4.png" width="620" height="370" loading="lazy"
+                    alt="Mobile Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <!-- ******************project 04 ******************** -->
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Storage App</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper.
+                  </p>
+
+                  <a href="#project-04" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/project-image/project-4.png" width="620" height="370" loading="lazy"
+                    alt="Mobile Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                If You Have Any Project In Your Mind. <br>
+                I'm a Web Developer & Designer - creating bold & brave interface design for companies all across the
+                world.
+              </p>
+
+            </div>
+
+            <!-- <form class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="hidden" name="access_key"> -->
+
+
+            <form id="reset-form-data" action="https://api.web3forms.com/submit" method="POST" class="contact-form"
+              data-reveal="right">
+
+              <div class="input-wrapper">
+                <!-- ******************************************************* -->
+                <input type="hidden" name="access_key" value="38be14c7-2332-4b20-be8d-3d935fdb898a">
+                <!-- ******************************************************* -->
+
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button id="not-submit" type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2024 Avinash kumar. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://github.com/avinasha6" target="_blank" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/avinash-kumar-raj-281580286/" target="_blank" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/_avinash..pandey?igsh=MTAxZTQ3ZWp5NXB6aw==" target="_blank"
+            class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <!-- 
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li> -->
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
